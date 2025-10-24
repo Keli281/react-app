@@ -1,70 +1,91 @@
-# React.js and Tailwind CSS Assignment
+# PLP Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive React application built for the Power Learn Project Week 3 assignment, demonstrating modern frontend development practices with React.js, JSX, and Tailwind CSS.
 
-## Assignment Overview
+##  Features
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+- **Task Management**: Add, complete, delete, and filter tasks
+- **Dark/Light Theme**: Toggle between themes with persistent preference
+- **Responsive Design**: Works perfectly on mobile, tablet, and desktop
+- **API Integration**: Fetch and display data with search and pagination
+- **Routing**: Multi-page navigation with React Router
+- **Local Storage**: Tasks persist between browser sessions
 
-## Getting Started
+##  Technologies Used
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+- React.js 18
+- Tailwind CSS
+- React Router DOM
+- Vite
+- Context API for state management
+- Custom Hooks
+
+##  Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd react-js-jsx-and-css-mastering-front-end-development-Keli281
    ```
+2. **Install dependencies**
+   ```bash
    npm install
    ```
-4. Start the development server:
-   ```
+3. **Start development server**
+   ```bash
    npm run dev
    ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+4. **Open your browser**
+- Navigate to http://localhost:5173
 
 ## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/          # Reusable UI components
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── TaskManager.jsx
+│   └── ApiData.jsx
+├── pages/              # Page components
+│   ├── Home.jsx
+│   ├── Tasks.jsx
+│   └── About.jsx
+├── context/            # React context
+│   └── ThemeContext.jsx
+├── hooks/              # Custom hooks
+└── App.jsx             # Main application
 
-## Submission
+## Components Overview
+- **Button**: Customizable button with variants (primary, secondary, danger, success, warning)
+- **Card**: Flexible container component for content
+- **Navbar**: Responsive navigation with mobile menu
+- **Footer**: Site footer with links and information
+- **TaskManager**: Complete task management with filtering
+- **ApiData**: API integration with search and pagination
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## Pages
+- **Home**: Welcome page with feature overview
+- **Tasks**: Task management interface
+- **About**: Project information and API data display
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## Deployment
+The application can be deployed to:
+- Vercel
+- Netlify
+- GitHub Pages
+   
+## Screenshots
+### Home Page (Dark Theme)
+![Home Page](./media/home-dark.png)
 
-## Resources
+### Tasks Page (Light Theme) 
+![Tasks Page](./media/tasks-light.png)
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+### Mobile View
+![Mobile View](./media/mobile-view.png)
+
+## Live Demo
+
+## Developer 
+Built by Natalie Awinja, for PLP Week 3 Assignment.
