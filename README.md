@@ -86,6 +86,7 @@ The application can be deployed to:
 ![Mobile View](./media/mobile-view.png)
 
 ## Live Demo
+- [View Live Demo Here](https://react-app-eta-smoky.vercel.app/)
 
 ## Developer 
 Built by Natalie Awinja, for PLP Week 3 Assignment.
